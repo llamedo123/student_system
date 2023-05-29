@@ -1,0 +1,99 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1c2238;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    margin: 20px;
+}
+
+main h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(220, 212, 173);
+  }
+
+/* Edit and Delete buttons */
+main a, main button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main a:hover, main button:hover {
+    background-color: #3e8e41;
+}
+
+/* Delete button */
+main button {
+    background-color: #f44336;
+}
+
+/* Form */
+form {
+    margin-bottom: 20px;
+
+}
+
+form input[type=hidden] {
+    display: none;
+}
+
+/* Style the form button */
+button[type="submit"] {
+    display: block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3fafff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .actions 
+  {
+    text-align: center;
+  }
