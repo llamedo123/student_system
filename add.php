@@ -5,7 +5,6 @@ include_once('connections/connection.php');
 $cons = connection();
 
 if(isset($_POST['submit'])) {
-
     $fname = $_POST['firstname'];
     $lname = $_POST['lastname'];
     $gender = $_POST['gender'];
