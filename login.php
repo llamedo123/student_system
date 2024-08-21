@@ -1,10 +1,11 @@
 
 <?php
+// session start
 if(!isset($_SESSION)) {
     session_start();
 }
 
-
+// Connection
 include_once('connections/connection.php');
     $cons = connection();
     
